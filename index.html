@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" 
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" 
+    crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" 
+    integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" 
+    crossorigin="anonymous"></script>
+
+    <title>Analyse your Whatsapp</title>
+    <style>
+        body{
+          background: url(images/ccc.jpg) no-repeat center center fixed;
+          background-size: cover;
+        }
+
+        span{
+            /* font-family: 'Permanent Marker', cursive; */
+            font-family: 'Pacifio', cursive;
+        }
+
+        .nav-link{
+            color: rgb(255, 251, 212);
+        }
+        a:hover{
+            color: rgb(255, 251, 212);
+        }
+
+        .nav-link:hover::after{
+            width: 100%;
+            opacity: 1;
+        }
+
+        .nav-link::after{
+            content: "";
+            display: block;
+            width: 10%;
+            height: 2px;
+            background: lime;
+            margin: 0 auto;
+            margin-top: 2px;
+            transition-duration: 0.4s;
+            opacity: 0;
+        }
+
+        .d:hover{
+            /* background-color: red; */
+            /* box-shadow: 10px 10px 5px grey; */
+            box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 8px rgba(0, 0, 0, 0.19);
+            transition-duration: 0.4s;
+
+        }
+        .e:hover{
+            /* background-color: blue; */
+            /* box-shadow: 10px 10px 5px grey; */
+            box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 8px rgba(0, 0, 0, 0.19);
+            transition-duration: 0.4s;
+        }
+
+        .row{
+            margin-top: 100px;
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar{
+          background-color: #003153;
+        }
+        .intro{
+          width: fit-content;
+          height: fit-content;
+          margin: 0 auto;
+          margin-top: 30px;
+          opacity: 0.8;
+        }
+        .method{
+          margin-top: -40px;
+        }
+        .clear { clear: both; height: 60px;} 
+       
+        .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #003153;
+   color: white;
+   text-align: center;
+}
+.display-4{
+  text-decoration: underline;
+}
+.fa-heart{
+  color: #f00;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <!-- Image and text -->
+<nav class="navbar navbar-light" >
+    <a class="navbar-brand" href="#">
+      <!-- <img src="bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> -->
+      <span style="color: rgb(241, 232, 199); font-size: x-large;">Whatsapp Analyser</span>
+    </a>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link yes" href="analyse.html">Analyse</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link yes" href="#" target="_blank">Collaboraters</a>
+        </li>
+      </ul>
+  </nav>
+  <div class="jumbotron intro">
+    <h1 class="display-4"><b>Introduction</b></h1>
+    <br>
+    <pre class="lead">
+With whatsapp analyzer, you can see interesting statistics about your whatsapp conversation and group chats
+all you have to do is extract the text file of the conversation. Go to Analyse tab and upload the text file.</pre>
+  </div>
+
+
+  <div class="clear"></div>
+  <footer class="py-3 bg-dark footer">
+    <div class="container">
+      <!-- <p class="m-0 text-center text-white">Copyright &copy; 2020</p> -->
+      <p>
+        <small class="block"> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br> Made with <i class="fas fa-heart"></i> by Boomers!
+</small>
+      </p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+
+</body>
+</html>
