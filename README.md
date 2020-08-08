@@ -42,4 +42,4 @@
 #### Note: You have to be in the project directory and then run this command, not in the admin or system32.
 #### Note: Create a folder named 'upload' in the main directory of the project. After uploading the chats in html page, the .txt file will get uploaded here so that ```final.py``` can access it to analyse it.
 #### Note: Remember to run ```train.py``` and create a model file first. You can understand how it is trained from the same.
-# Thank You
+
